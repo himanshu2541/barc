@@ -1,0 +1,108 @@
+
+.navbar{
+    flex-direction: column;
+    height: 106px;
+    transition: all .7s ease;
+    justify-content: flex-start;
+}
+
+.navbar-justify-content{
+    justify-content: space-evenly;
+}
+.middleNav{
+    justify-content: center;
+}
+.nav-list{
+    flex-direction: column;
+    visibility: collapse;
+}
+.visibility-class-resp{
+    visibility: visible;
+}
+
+.nav-list li{
+    text-align: center;
+}
+.logo{
+    width: 110px;
+}
+
+.navbar.h-nav-resp{
+    height: 230px;
+}
+
+.firstSection{
+    height: 500px;
+}
+
+
+.box-main{
+    padding: 40px 0px;
+    flex-direction: column;
+
+}
+.secondHalf img{
+    width: 80%;
+}
+
+.firstHalf{
+    width: 90%;
+}
+
+
+.firstHalf .para1{
+    margin: 14px 0px;
+    font-size: 2.2rem;
+}
+.firstHalf .para2{
+    font-size: 1.2rem;
+}
+#toggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* .visibility-class-resp-show{
+    visibility: visible;
+} */
+
+
+
+#about{
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+#about::before{
+    height: 500px;
+}
+#about div h1{
+    font-size: 3.5rem;
+}
+#about div p {
+    font-size: 1.3rem;
+}
+
+
+#tour{
+    margin-top: 100px;
+}
+#tour .secRight{
+    grid-template-rows: repeat(6,auto);
+    grid-template-columns: none;
+}
+
+#tour .heading h1{
+    font-size: 2.4rem;
+}
+
+
+
+#contact h1{
+    font-size: 2.5rem;
+}
+#contact form{
+    width: 80%;
+}
